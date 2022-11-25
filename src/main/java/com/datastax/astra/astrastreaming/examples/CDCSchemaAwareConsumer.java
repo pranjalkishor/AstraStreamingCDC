@@ -21,7 +21,6 @@ public class CDCSchemaAwareConsumer {
                         AuthenticationFactory.token("eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjkwOTE5NjksImlzcyI6ImRhdGFzdGF4Iiwic3ViIjoiY2xpZW50O2UwZTdhNmEzLTRjNWQtNDM2My1hNzYwLTJlMmE0ODA1MjkwODtjM1J5WldGdGRHVnVZVzUwOzk0OWZhODYyNjIiLCJ0b2tlbmlkIjoiOTQ5ZmE4NjI2MiJ9.C5uoZlDa64ZINKEHfTTp9BNtiK0zFDoA4J0gM53BM13OaYUvMnrjsmCA0QWLZoduOFfgd5-I_RWWLIyl3q1u_b52ZT2npxMsyzwBBy_0D7MUg1bloUJ1Lvl8iD-osdlZUM1wuJq6-VOEssQZD-rI_K3lDbQtmacqJg-PIlrGZ0X5NQLtJeg4aiyoBokMJ_uWa3zXDvqoEhI_SkAfl3nHfpj9sIdNeq4efYsuMxQd3bvpT7OS-7KL7ZJWmZHaq6G7eqjXQve0Uc-_Y-tq_khTfHaMKWIkpmXBTgMdrJoJ_kv4sjoInETkIFDhCRbsaOY1qd84MYGxnjM2VWCtAeOOXg")
                 )
                 .build();
-
         // Create consumer on a topic with a subscription
         Consumer<GenericRecord> consumer = client.newConsumer(Schema.AUTO_CONSUME())
                 .topic("streamtenant/astracdc/data-08ed3753-783d-49e7-9726-e95808032a9e-myks.t1")
