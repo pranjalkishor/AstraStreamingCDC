@@ -10,7 +10,6 @@ import org.apache.pulsar.common.schema.KeyValue;
 public class CDCSchemaAwareConsumer {
 
     private static final String SERVICE_URL = "pulsar+ssl://pulsar-aws-useast1.streaming.datastax.com:6651";
-
     public static void main(String[] args) throws IOException
     {
 
